@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1000,
+        "name": "Luna",
+        "img": "https://www.pexels.com/photo/brown-cat-with-green-eyes-617278/",
+        "stock": 81,
+        "price": "23488.67",
+        "productSalePrice": "23488.67",
+        "rating": 4
+    },
+    {
+        "id": 1001,
+        "name": "Milo",
+        "img": "https://www.pexels.com/photo/grey-fur-kitten-127028/",
+        "stock": 66,
+        "price": "42992.62",
+        "productSalePrice": "20636.46",
+        "rating": 2
+    },
+    {
+        "id": 1002,
+        "name": "Oliver",
+        "img": "https://www.pexels.com/photo/white-and-beige-persian-cat-beside-red-rose-86243/",
+        "stock": 58,
+        "price": "26956.67",
+        "productSalePrice": "26956.67",
+        "rating": 4
+    },
+    {
+        "id": 1003,
+        "name": "Leo",
+        "img": "https://www.pexels.com/photo/grey-cat-on-wooden-fence-2518134/",
+        "stock": 74,
+        "price": "32827.45",
+        "productSalePrice": "32827.45",
+        "rating": 2
+    },
+    {
+        "id": 1004,
+        "name": "Loki",
+        "img": "https://www.pexels.com/photo/selective-focus-photography-of-tuxedo-cat-1774341/",
+        "stock": 85,
+        "price": "27379.36",
+        "productSalePrice": "9308.98",
+        "rating": 4
+    },
+    {
+        "id": 1005,
+        "name": "Bella",
+        "img": "https://www.pexels.com/photo/cat-on-grass-979098/",
+        "stock": 24,
+        "price": "34617.96",
+        "productSalePrice": "34617.96",
+        "rating": 3
+    },
+    {
+        "id": 1006,
+        "name": "Simba",
+        "img": "https://www.pexels.com/photo/close-up-photo-of-cat-1693444/",
+        "stock": 34,
+        "price": "27822.85",
+        "productSalePrice": "27822.85",
+        "rating": 1
+    }
+]

@@ -1,0 +1,109 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 20px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cart-container {
+    margin-left: 20px;
+
+}
+
+
+
+/* Media Query*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .products-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+    .products-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 0px) and (max-width: 480px) {
+
+
+    /* CSS */
+    .products-container {
+        order: 2;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 10px;
+    }
+
+    .cart-container {
+        order: 1;
+        margin-bottom: 20px;
+
+    }
+
+    .shop-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
